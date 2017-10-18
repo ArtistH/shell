@@ -7,5 +7,9 @@ TOPSEC's script
 ### clean_elf.sh
 使用tostree.sh中提到的递归便利框架, 清除目录及子目录下的可执行文件.
 
+### commit.sh
+获取脚本中以#开头的行, 即注释行.
+
 ### sysmonitor.sh
 获取系统的一些信息并打印.
+
