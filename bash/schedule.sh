@@ -13,11 +13,16 @@ function date2days {
 }
 
 echo "Enter your date:"
-read input
-InpuDays=$(date2days ${input:0:4} ${input:4:2} ${input:6:2})
+read input_date
+InpuDays=$(date2days ${input_date:0:4} ${input_date:4:2} ${input_date:6:2})
 SysDays=$(date2days `date +"%Y %m %d"`)
 let result=$InpuDays-$SysDays
 
+echo "Enter your project:"
+read input_project
+
+echo ""
+echo "${input_project}"
 echo "-----------------------"
 echo "| 24h   | `date +%Y%m%d --date="+1 day +$result day"`    |"
 echo "-----------------------"
