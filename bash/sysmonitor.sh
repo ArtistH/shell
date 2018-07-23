@@ -1,11 +1,13 @@
 #!/bin/bash
 
 # part1. Hardware Info
+<< eof
 echo "Hardware Information"
 echo "===================="
 echo `dmidecode | grep "Product Name"`
 echo ""
 echo ""
+eof
 
 # part2. System Version
 echo "System Version"
