@@ -6,6 +6,9 @@
 ### commit.sh
 获取脚本中以#开头的行, 即注释行.
 
+### cc2cpp.sh
+递归重命名.cc后缀文件为.cpp后缀文件
+
 ### install\_kernel.sh
 早期编译好内核后, 安装并修改menu.list的自动脚本.
 
